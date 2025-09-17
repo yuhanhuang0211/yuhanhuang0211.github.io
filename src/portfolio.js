@@ -174,10 +174,10 @@ const techStack = {
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
-// Work experience section
+// Experience section
 
-const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+const Experiences = {
+  display: true, //Set it to true to show Experiences Section
   experience: [
     {
       role: "Software Engineer",
@@ -291,7 +291,6 @@ const achievementSection = {
         }
       ]
     },
-
     {
       title: "PWA Web App Developer",
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
@@ -340,7 +339,7 @@ export {
   skillsSection,
   educationInfo,
   techStack,
-  workExperiences,
+  Experiences,
   openSource,
   bigProjects,
   achievementSection,

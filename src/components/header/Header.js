@@ -5,7 +5,7 @@ import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
 import {
   greeting,
-  workExperiences,
+  Experiences,
   skillsSection,
 
   achievementSection
@@ -14,7 +14,7 @@ import {
 
 function Header() {
   const {isDark} = useContext(StyleContext);
-  const viewExperience = workExperiences.display;
+  const viewExperience = Experiences.display;
 
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
