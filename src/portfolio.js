@@ -38,7 +38,7 @@ const socialMediaLinks = {
   github: "https://github.com/yuhanhuang0211",
   linkedin: "https://www.linkedin.com/in/%E9%9B%A8%E6%B6%B5-%E9%BB%83-4a58a42a6/",
   gmail: "isyuhann@gmail.com",
-  // Instagram, Facebook, Medium, X (Twitter), Gitlab and Kaggle are also supported in the links!
+  // Instagram, Facebook, X (Twitter), Gitlab and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
 };
@@ -371,7 +371,6 @@ export {
   openSource,
   bigProjects,
   achievementSection,
-  blogSection,
   talkSection,
   podcastSection,
   contactInfo,
