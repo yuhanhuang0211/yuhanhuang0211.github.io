@@ -20,7 +20,7 @@ const illustration = {
 };
 
 const greeting = {
-  username: "yuhanhuang02211",
+  username: "yuhanhuang0211",
   title: "Hi! I'm YuHan",
   subTitle: emoji(
     "A passionate learner and creator with international research experience 🚀"
@@ -47,7 +47,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "EAGER TO FILL UP ALL MY SCHEDULE, WITH ACTIVITIES & PROJECTS & COMPETITIONS & COURSES & VOLUNTEERING",
+  subTitle: "EAGER TO FILL UP ALL MY SCHEDULE, WITH ACTIVITIES & PROJECTS & COMPETITIONS & COURSES & VOLUNTEERING.",
   skills: [
     emoji(
       "⚡ Exploring My Possibilities in Digital Marketing and Full Stack Development"
@@ -319,7 +319,6 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a collaboration with my community or just want to say hi? My Inbox is open for all.",
-  email_address: "isyuhann@gmail.com"
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
