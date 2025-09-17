@@ -23,7 +23,7 @@ const greeting = {
   username: "yuhanhuang02211",
   title: "Hi! I'm YuHan",
   subTitle: emoji(
-    "A passionate learner and creator with international research experience 🚀 Currently exploring full-stack development, software design, and digital marketing. My goal is to become a versatile professional who creates both personal and social value."
+    "A passionate learner and creator with international research experience 🚀"
   ),
   /* 準備好簡歷後再更新連結上來 */
   /* resumeLink:
@@ -47,14 +47,16 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "EAGER TO FILL UP ALL MY SCHEDULE, WITH ACTIVITIES & PROJECTS & COMPETITIONS & COURSES & VOLUNTEERING",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Exploring My Possibilities in Digital Marketing and Full Stack Development"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Currently Exploring My Possibility in Digital Marketing and Full-stack Development"
+    ),
+    emoji(
+      "⚡ My goal is to Become a Versatile Professional Who Creates Both Personal and Social Value"
     )
   ],
 
