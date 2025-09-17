@@ -1,6 +1,7 @@
 import React, {useContext} from "react";
 import "./StartupProjects.scss";
-import {bigProjects} from "../../portfolio";
+import {bigProjects, socialMediaLinks} from "../../portfolio";
+import Button from "../../components/button/Button";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
@@ -87,6 +88,12 @@ export default function StartupProject() {
               );
             })}
           </div>
+          <Button
+            text={"More Projects"}
+            className="project-button"
+            href={socialMediaLinks.github}
+            newTab={true}
+          />
         </div>
       </div>
     </Fade>

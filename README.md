@@ -32,14 +32,11 @@ Created something awesome for your fork of the portfolio and want to share it? F
 ✔️ Summary and About me\
 ✔️ Skills\
 ✔️ Education\
-✔️ Work Experience\
+✔️ Experience\
 ✔️ Open Source Projects Connected with GitHub\
 ✔️ Big Projects\
 ✔️ Achievements And Certifications 🏆\
-✔️ Talks\
-✔️ Podcast\
 ✔️ Contact me\
-✔️ Twitter Timeline\
 ✔️ GitHub Profile
 
 To view a live example, **[click here](https://developerfolio.js.org/)**.
