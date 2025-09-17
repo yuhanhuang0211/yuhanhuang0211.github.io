@@ -36,11 +36,11 @@ export default function Greeting() {
               >
                 {greeting.subTitle}
               </p>
-              <div id="resume" className="empty-div"></div>
+              {/* <div id="resume" className="empty-div"></div> */}
               <SocialMedia />
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />
-                {greeting.resumeLink && (
+                {/* {greeting.resumeLink && (
                   <a
                     href={require("./resume.pdf")}
                     download="Resume.pdf"
@@ -48,7 +48,7 @@ export default function Greeting() {
                   >
                     <Button text="Download my resume" />
                   </a>
-                )}
+                )} */}
               </div>
             </div>
           </div>

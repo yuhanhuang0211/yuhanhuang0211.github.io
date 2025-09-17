@@ -9,7 +9,7 @@ import StartupProject from "./StartupProjects/StartupProject";
 import Achievement from "./achievement/Achievement";
 import Footer from "../components/footer/Footer";
 
-import Podcast from "./podcast/Podcast";
+
 import Education from "./education/Education";
 import ScrollToTopButton from "./topbutton/Top";
 import Twitter from "./twitter-embed/twitter";
@@ -59,7 +59,6 @@ const Main = () => {
             <StartupProject />
             <Achievement />
             <Twitter />
-            <Podcast />
             <Profile />
             <Footer />
             <ScrollToTopButton />
