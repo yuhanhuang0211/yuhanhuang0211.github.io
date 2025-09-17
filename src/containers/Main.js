@@ -12,7 +12,7 @@ import Footer from "../components/footer/Footer";
 
 import Education from "./education/Education";
 import ScrollToTopButton from "./topbutton/Top";
-import Twitter from "./twitter-embed/twitter";
+
 import Profile from "./profile/Profile";
 import SplashScreen from "./splashScreen/SplashScreen";
 import {splashScreen} from "../portfolio";
@@ -57,7 +57,6 @@ const Main = () => {
             <WorkExperience />
             <StartupProject />
             <Achievement />
-            <Twitter />
             <Profile />
             <Footer />
             <ScrollToTopButton />

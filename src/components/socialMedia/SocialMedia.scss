@@ -48,10 +48,6 @@
   background-color: $google;
 }
 
-.twitter i {
-  background-color: $twitter;
-}
-
 .stack-overflow i {
   background-color: $stackoverflow;
 }
@@ -65,7 +61,6 @@
 }
 
 /* Hover Transition */
-.twitter i:hover,
 .google i:hover,
 .gitlab i:hover,
 .github i:hover,

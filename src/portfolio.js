@@ -38,7 +38,7 @@ const socialMediaLinks = {
   github: "https://github.com/yuhanhuang0211",
   linkedin: "https://www.linkedin.com/in/%E9%9B%A8%E6%B6%B5-%E9%BB%83-4a58a42a6/",
   gmail: "isyuhann@gmail.com",
-  // Instagram, Facebook, X (Twitter), Gitlab and Kaggle are also supported in the links!
+  // Instagram, Facebook, Gitlab and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
 };
@@ -124,23 +124,29 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Kinmen Senior High School",
+      logo: require("./assets/images/kmshlogo.png"),
+      subHeader: "General Stream",
+      duration: "September 2020 - June 2023",
+      desc: "Participated in many competitions and activities, winning some tities.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "NASA GLOBE Program - Meteorological Observer Volunteer",
+        "NASA GLOBE Program - International Virtual Science Symposium (IVSS)｜Full-stared in biology field research",
+        "NASA GLOBE Program - 2021 GLOBE Asia and Pacific Regional Meeting & Regional GLE｜Distinguished guest speaker",
+        "Photography Club - Activity Officer",
+        "Biology Research Club - Treasurer & Vice President",
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "National Taipei University",
+      logo: require("./assets/images/ntpulogo.png"),
+      subHeader: "Bachelor of Accounting",
+      duration: "September 2023 - Now",
+      desc: "Ranked high in the first year, still being in love with competitions and activities.",
+      descBullets: [
+        "Google Developer Groups on Campus NTPU - Core Team Member (Marketing)",
+        "Google Developer Groups on Campus NTPU - Lead",
+      ]
     }
   ]
 };
@@ -159,17 +165,9 @@ const techStack = {
       progressPercentage: "60%"
     },
     {
-      Stack: "Leadership",
-      progressPercentage: "50%"
-    },
-    {
       Stack: "Digital Marketing",
       progressPercentage: "25%"
     },
-    {
-      Stack: "Programming",
-      progressPercentage: "10%"
-    }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -177,7 +175,7 @@ const techStack = {
 // Experience section
 
 const Experiences = {
-  display: true, //Set it to true to show Experiences Section
+  display: false, //Set it to true to show Experiences Section
   experience: [
     {
       role: "Software Engineer",
@@ -219,7 +217,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "Side Projects & Contributions to Open Source during Free Time in College",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
@@ -245,7 +243,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -305,7 +303,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -318,15 +316,8 @@ const achievementSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+    "Discuss a collaboration with my community or just want to say hi? My Inbox is open for all.",
   email_address: "isyuhann@gmail.com"
-};
-
-// Twitter Section
-
-const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
@@ -343,10 +334,8 @@ export {
   openSource,
   bigProjects,
   achievementSection,
-
-
   contactInfo,
-  twitterDetails,
+
   isHireable,
   // resumeSection
 };
