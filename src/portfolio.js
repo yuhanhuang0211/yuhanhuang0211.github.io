@@ -219,31 +219,31 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "Side Projects & Contributions to Open Source during Free Time in College",
+  subtitle: "Side Projects & Contributions to Open Source during My Free Time in College",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/lawhelperlogo.png"),
+      projectName: "NTPU LawHelperlogo",
+      projectDesc: "Using LLM model to assist students in solving questions about campus regulations.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Under Development",
+        //  url: "http://saayahealth.com/"
         }
         //  you can add extra buttons here.
       ]
     },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    }
+    //{
+    //  image: require("./assets/images/nextuLogo.webp"),
+    //  projectName: "Nextu",
+    //  projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    //  footerLink: [
+    //    {
+    //      name: "Visit Website",
+    //      url: "http://nextu.se/"
+    //    }
+    //  ]
+    //}
   ],
   display: true // Set false to hide this section, defaults to true
 };
