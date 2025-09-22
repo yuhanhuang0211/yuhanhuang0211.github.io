@@ -41,14 +41,7 @@ export default function Contact() {
                   <br />
                 </>
               )}
-              <a
-                className="contact-detail-email"
-                href={"mailto:" + contactInfo.email_address}
-              >
-                {contactInfo.email_address}
-              </a>
-              <br />
-              <br />
+
               <SocialMedia />
             </div>
           </div>

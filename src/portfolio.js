@@ -23,7 +23,7 @@ const greeting = {
   username: "yuhanhuang0211",
   title: "Hi! I'm YuHan",
   subTitle: emoji(
-    "A passionate learner and creator with international research experience 🚀"
+    "A passionate learner with international research experience 🚀"
   ),
   /* 準備好簡歷後再更新連結上來 */
   /* resumeLink:
@@ -46,12 +46,9 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
+  title: "What I Do",
   subTitle: "EAGER TO FILL UP ALL MY SCHEDULE, WITH ACTIVITIES & PROJECTS & COMPETITIONS & COURSES & VOLUNTEERING.",
   skills: [
-    emoji(
-      "⚡ Exploring My Possibilities in Digital Marketing and Full Stack Development"
-    ),
     emoji(
       "⚡ Currently Exploring My Possibility in Digital Marketing and Full-stack Development"
     ),
@@ -65,56 +62,8 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -168,7 +117,7 @@ const techStack = {
     },
     {
       Stack: "Digital Marketing",
-      progressPercentage: "25%"
+      progressPercentage: "35%"
     },
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -178,33 +127,7 @@ const techStack = {
 
 const Experiences = {
   display: false, //Set it to true to show Experiences Section
-  experience: [
-    {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
-  ]
+  experience: []
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
@@ -223,7 +146,7 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/lawhelperlogo.png"),
-      projectName: "NTPU LawHelperlogo",
+      projectName: "NTPU LawHelper",
       projectDesc: "Using LLM model to assist students in solving questions about campus regulations.",
       footerLink: [
         {
@@ -255,56 +178,7 @@ const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
-
-  achievementsCards: [
-    {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
-    },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
-  ],
+  achievementsCards: [],
   display: false // Set false to hide this section, defaults to true
 };
 
@@ -319,9 +193,10 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a collaboration with my community or just want to say hi? My Inbox is open for all.",
+  email_address: "isyuhann@gmail.com"
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,

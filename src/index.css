@@ -1,4 +1,18 @@
 @font-face {
+  font-family: "Google Sans Display";
+  src: url("./assets/fonts/GoogleSansDisplay-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Google Sans Display";
+  src: url("./assets/fonts/GoogleSansDisplay-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
   font-family: "Agustina Regular";
   font-style: normal;
   font-weight: normal;
@@ -22,7 +36,7 @@ body {
 }
 body {
   margin: 0;
-  font: 19px / 23px Montserrat, "Montserrat", sans-serif;
+  font: 19px / 23px "Google Sans Display", Montserrat, "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
