@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.920fbb77.css",
+    "main.js": "/static/js/main.f7c758c4.js",
+    "static/css/769.b3679821.chunk.css": "/static/css/769.b3679821.chunk.css",
+    "static/js/769.01a6fb7b.chunk.js": "/static/js/769.01a6fb7b.chunk.js",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/GoogleSansDisplay-Regular.ttf": "/static/media/GoogleSansDisplay-Regular.aec8811d6190d802f10e.ttf",
+    "static/media/GoogleSansDisplay-Bold.ttf": "/static/media/GoogleSansDisplay-Bold.2281c5718346c450fbfd.ttf",
+    "static/media/lawhelperlogo.png": "/static/media/lawhelperlogo.bb728b0654b6289d27ae.png",
+    "static/media/ntpulogo.png": "/static/media/ntpulogo.68f4377f727f65e76dcb.png",
+    "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/kmshlogo.png": "/static/media/kmshlogo.f356eb43fb8235bbbc38.png",
+    "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "index.html": "/index.html",
+    "main.920fbb77.css.map": "/static/css/main.920fbb77.css.map",
+    "main.f7c758c4.js.map": "/static/js/main.f7c758c4.js.map",
+    "769.b3679821.chunk.css.map": "/static/css/769.b3679821.chunk.css.map",
+    "769.01a6fb7b.chunk.js.map": "/static/js/769.01a6fb7b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.920fbb77.css",
+    "static/js/main.f7c758c4.js"
+  ]
+}
