@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.06c50330.css",
-    "main.js": "/static/js/main.f2f15d0d.js",
+    "main.js": "/static/js/main.a944d927.js",
     "static/css/769.dfeb96f4.chunk.css": "/static/css/769.dfeb96f4.chunk.css",
     "static/js/769.01a6fb7b.chunk.js": "/static/js/769.01a6fb7b.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
@@ -17,12 +17,12 @@
     "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/index.html",
     "main.06c50330.css.map": "/static/css/main.06c50330.css.map",
-    "main.f2f15d0d.js.map": "/static/js/main.f2f15d0d.js.map",
+    "main.a944d927.js.map": "/static/js/main.a944d927.js.map",
     "769.dfeb96f4.chunk.css.map": "/static/css/769.dfeb96f4.chunk.css.map",
     "769.01a6fb7b.chunk.js.map": "/static/js/769.01a6fb7b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.06c50330.css",
-    "static/js/main.f2f15d0d.js"
+    "static/js/main.a944d927.js"
   ]
 }
