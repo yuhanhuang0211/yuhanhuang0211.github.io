@@ -43,24 +43,9 @@ export default function Skills() {
             >
               {skillsSection.subTitle}
             </p>
+            <SoftwareSkill />
             <div>
               {skillsSection.skills.map((skills, i) => {
-                if (i === 0) {
-                  return (
-                    <div key={i}>
-                      <p
-                        className={
-                          isDark
-                            ? "dark-mode subTitle skills-text"
-                            : "subTitle skills-text"
-                        }
-                      >
-                        {skills}
-                      </p>
-                      <SoftwareSkill />
-                    </div>
-                  );
-                }
                 return (
                   <p
                     key={i}

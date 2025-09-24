@@ -156,17 +156,17 @@ const bigProjects = {
         //  you can add extra buttons here.
       ]
     },
-    //{
-    //  image: require("./assets/images/nextuLogo.webp"),
-    //  projectName: "Nextu",
-    //  projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    //  footerLink: [
-    //    {
-    //      name: "Visit Website",
-    //      url: "http://nextu.se/"
-    //    }
-    //  ]
-    //}
+    {
+      image: require("./assets/images/AICUP.png"),
+      projectName: "AI CUP",
+      projectDesc: "Serving as a Research Assistant in NTPU-MIS iFit Lab, helping the Ministry of Education in labeling AI training datasets for the AI CUP 2025 Competition.",
+      footerLink: [
+        {
+          name: "Compete Now",
+          url: "https://www.aicup.tw/"
+        }
+      ]
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
